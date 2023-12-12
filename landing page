@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Ordering Landing Page</title>
+  <style>
+    body {
+      font-family:Arial,sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20230620/pngtree-speedy-cuisine-a-3d-fast-food-background-image_3647652.jpg'); 
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+    header {
+      background-color: rgba(0, 0, 0, 0.5);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .auth-links {
+      text-align: right;
+      padding: 10px;
+    }
+    .auth-links a {
+      margin-left: 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .container {
+      width: 80%;
+      margin: 20px auto;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 20px;
+      border-radius: 10px;
+    }
+    .cta-button {
+      padding: 10px 20px;
+      background-color: #ff6600;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .cta-button:hover {
+      background-color: #cc5500;
+    }
+    .main-content {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="auth-links">
+      <a href="#login">Login</a>
+      <a href="#signup">Sign Up</a>
+      <!-- You can use actual login/signup forms or actions here -->
+      <a href="#logout">Logout</a>
+      <!-- The logout link can be hidden or shown based on user authentication -->
+    </div>
+    <h1>Welcome to Food Ordering</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#contact">Contact</a>
+      <a href="#details">Details</a>
+    </nav>
+    <p>Order your delicious food here... </p>
+  </header>
+  <div id="home" class="container">
+    <div class="main-content">
+      <h2>Our Menu</h2>
+      <p>Find your favorite dishes and start your order.</p>
+      <a href="#details" class="cta-button">Order Now</a>
+    </div>
+  </div>
+  
+</body>
+</html>
